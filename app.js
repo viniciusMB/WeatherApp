@@ -13,7 +13,7 @@ window.addEventListener('load', ()=> {
             lat = position.coords.latitude;
 
             
-            api_key = '**********************';
+            api_key = '********************';
             const api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${api_key}`;
             
             fetch(api)
