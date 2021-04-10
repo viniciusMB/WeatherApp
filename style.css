@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.og {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(59, 122, 237), rgb(21, 103, 255), rgb(13, 82, 212), rgb(4, 43, 117));
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+.clouds {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(94, 97, 130), rgb(80, 82, 124), rgb(64, 65, 100), rgb(80, 82, 124), rgb(94, 97, 130));
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+
+.location,
+.temperature {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.temperature {
+    flex-direction: column;
+    
+}
+
+.degree_section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree_section span {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degree_section h2 {
+    font-size: 40px;
+}
